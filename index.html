@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <html lang="en-US"></html>
+        <!-- Update title later-->
+        <title>Laszlo's Portfolio Page</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Amiri|Crimson+Text|Montserrat|Noto+Serif|Open+Sans+Condensed:300|Raleway|Roboto+Slab|Work+Sans&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul class='nav-list'>
+                <li class='nav-elements'><a class='nav-links' href=''>About me</a></li>
+                <li class='nav-elements'><a class='nav-links' href='#my-projects'>My Projects</a></li>
+                <li class='nav-elements'><a class='nav-links' href='#social-media'>Contact me</a></li>
+            </ul>
+        </nav>
+                
+                
+        <div class='intro-header'>
+            <img src='me.jpg' alt='Photo of me.' width='200px' class='selfie'>
+            <h1>Hi, I'm Laszlo, an aspiring full-stack developer.</br> Welcome to my Portfolio Page!</h1>
+        </div>
+
+        
+
+        <main>
+            <section id='about-me' class='about-me'>
+                <p>I'm Laszlo, an aspiring full-stack developer looking to change careers.</p>
+
+                <p>To reach my goal, I am doing the #100DaysOfCode challenge since mid-September with a clear roadmap on how to get there. After starting with html and CSS, I am currently learning vanilla JS and later React. For the backend, I will be learning node.js and PostgreSQL.</p>
+
+                <p>If all goes as planned, I hope to transition into a career as a developer by April 2020. :)</p>
+
+
+            <!-- 
+                <p>These are exciting (and every now and then, scary) times for me, with my deadline to quit my current job and taking the leap soon approaching! If you would like to follow and support me (emotionally) on this journey, I keep a diary of my progress on Twitter. You can find the link to my Twitter below in the social media buttons. If you don't want to follow along that closely, but are curious to see where my path leads me, sign up to a mailing list via the button below to receive an update once I have developed my skills and am looking for a job (don't worry, I won't be sending around daily/weekly/monthly or even annual newsletters, it's just going to be a 'Hello World, I am ready to become a fulltime developer').</p>
+            </section>
+            
+            <div class='btn-div'>
+                <button type="button" class="btn btn-primary" href=''>Sign up!</button>
+            </div>
+            -->
+            </section>
+
+            <section id='my-projects' class='my-projects'>
+                <div>
+                    <h2 class='projects-header'>My Projects</h2>
+                </div>
+                <div class='all-thumbnails'>
+                    
+                    <div class='project-thumbnails project-thumbnails-left'>
+                        <a href='https://codepen.io/laszlowa/full/KKPLRNy' class='thumbnail'><img src='Thumbnails/Queen_Bean.png' class='thumbnail-image'></a>
+                        
+                        <div class='thumbnail-text thumbnail-text-right'>
+                            <h3 class='thumbnail-header'>Tribute Page</h3>
+                            <p>The first project of the FreeCodeCamp 'Respsonsive Web Design Certification', a tribute page. The page is dedicated to my cat, Tabita, also known as the Queen Bean. The project was the first practical application of html and CSS, outside of the FCC challenges.</p>
+                        </div>
+                    </div>
+                    <div class='project-thumbnails project-thumbnails-right'>
+                        <div class='thumbnail-text thumbnail-text-left'>
+                            <h3 class='thumbnail-header'>Survey Form</h3>
+                            <p>The second project on FCC was to make a questionnaire. The lesson here was to use different input fields to create a form. As the timing of the project aligned with the Queen Bean's annual satisfaction survey, it was decreed that the survey should this year be held online.</p>
+                        </div>
+
+                        <a href='https://codepen.io/laszlowa/full/ExYqxyN' class='thumbnail'><img src='Thumbnails/Queen_Beans_Survey.png' class='thumbnail-image'></a> 
+                    </div> 
+                    <div class='project-thumbnails project-thumbnails-left'> 
+                        <a href='https://codepen.io/laszlowa/full/rNNVVOm' class='thumbnail'><img src='Thumbnails/Blissful_Baker.png' class='thumbnail-image'></a>
+                        
+                        <div class='thumbnail-text thumbnail-text-right'>
+                            <h3 class='thumbnail-header'>Product Landing Page</h3>
+                            <p>The third project on FCC was a product landing page. For this project, I needed to make a nav bar, a footer, embed a video, create a form to submit email addresses, as well as use CSS flex box (which I love!). My product landing page is dedicated to bread, proper bread, that is.</p>
+                            </div>
+                    </div>
+                    <div class='project-thumbnails project-thumbnails-right'>
+                        <div class='thumbnail-text thumbnail-text-left'>
+                            <h3 class='thumbnail-header'>Technical Documentation Page</h3>
+                            <p>The fourth project on FCC was a technical documentation page, for which I chose CSS flex box. The content comes from MDN web docs from Mozilla. The project required to use media queries to change the layout for smaller screens.</p>
+                        </div>
+                        <a href='https://codepen.io/laszlowa/full/XWWdgae' class='thumbnail'><img src='Thumbnails/Flexbox_Documentation.png' class='thumbnail-image'></a>
+                    </div>
+                </div> 
+            </section>
+
+            <footer>
+                <div class='social-media-div' id='social-media'>
+                    <span>Find me on social media</span>
+                    <ul>
+                        <li class='media-list'>
+                            <a href='https://twitter.com/LaszloWa'>
+                                <img src='SocialMedia/Twitter_Logo_Blue.svg' class='media-icons twitter-icon'>
+                            @LasWa</a>
+                        </li>
+                        <li class='media-list'>
+                            <a href='https://github.com/LaszloWa'>
+                                <img src='SocialMedia/GitHub-Mark-32px.png' class='media-icons'>
+                            @LasWa</a>
+                        </li>
+                        <li class='media-list'>
+                                <a href='https://www.linkedin.com/in/laszlo-wagenblast/'>
+                                    <img src='SocialMedia/LI-In-Bug.png' class='media-icons'>
+                                Laszlo Wagenblast</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class='copyright-div'>
+                    <span>© Laszlo Wagenblast, 2019</span>
+                </div>
+            </footer>
+
+        </main>
+
+    </body>
+
+</html>
